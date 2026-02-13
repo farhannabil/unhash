@@ -11,3 +11,11 @@ unhash('UNhY4JhezH9gQYqvDMWrWH9CwlcKiECVqejMrND2VFw')
     err => console.error(err)
   )
 ```
+
+## Live Demo
+
+Check out the **Stake Mines Predictor** example application deployed on GitHub Pages:
+
+👉 **[https://farhannabil.github.io/unhash/](https://farhannabil.github.io/unhash/)**
+
+This example demonstrates provably fair algorithms for calculating mine positions and safe spots in a 5x5 grid game.
