@@ -2,6 +2,12 @@
 
 A Next.js web application that demonstrates the use of provably fair algorithms to calculate mine positions and highlight safe spots in a 5x5 grid game.
 
+## 🚀 Live Demo
+
+**Visit the live application:** [https://farhannabil.github.io/unhash/](https://farhannabil.github.io/unhash/)
+
+The application is automatically deployed to GitHub Pages via GitHub Actions.
+
 ## Features
 
 - 🎯 **Mine Position Calculation**: Uses HMAC-SHA256 to deterministically calculate mine positions
