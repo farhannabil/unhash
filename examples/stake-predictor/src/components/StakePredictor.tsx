@@ -15,7 +15,7 @@ function calculateMines(serverSeed: string, clientSeed: string, nonce: string, b
   let cursor = 0;
 
   for (let i = 0; i < bombCount; i++) {
-    const chunk = hmac.substr(cursor, 8);
+    const chunk = hmac.substring(cursor, cursor + 8);
     cursor += 8;
     const decimal = parseInt(chunk, 16);
     const randomFloat = decimal / 4294967296;
